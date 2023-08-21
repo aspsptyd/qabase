@@ -2,3 +2,4 @@
 /tests
 
 composer.lock
+package-lock.json

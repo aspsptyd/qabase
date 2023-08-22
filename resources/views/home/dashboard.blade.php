@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Quality Assurance - Dashboard</title>
+    <title>QABASE v1.1 - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('sb-admin-2') }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -33,7 +33,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center" href="index.html">
-                <div class="sidebar-brand-text">QUALITY ASSURANCE</div>
+                <div class="sidebar-brand-text">QABASE <sup>v1.1</sup></div>
             </a>
 
             <!-- Divider -->

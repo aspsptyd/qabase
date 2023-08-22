@@ -32,7 +32,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center" href="index.html">
-                <div class="sidebar-brand-text">QA→BASE PITSTOP</div>
+                <div class="sidebar-brand-text">QUALITY ASSURANCE</div>
             </a>
 
             <!-- Divider -->
@@ -41,8 +41,8 @@
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
                 <a class="nav-link" href="index.html">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
+                    <i class="fas fa-fw fa-door-open"></i>
+                    <span>Homepage</span></a>
             </li>
 
             <!-- Divider -->

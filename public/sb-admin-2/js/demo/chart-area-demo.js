@@ -47,6 +47,19 @@ var myLineChart = new Chart(ctx, {
       pointHitRadius: 10,
       pointBorderWidth: 2,
       data: [150, 300, 15, 25, 400, 135, 200, 89, null, null, null, null],
+    },
+    {
+      label: "Bug & Issue",
+      lineTension: 0.1,
+      pointRadius: 3,
+      backgroundColor: "rgb(255, 110, 110, 0.20)",
+      pointBackgroundColor: "rgb(255, 110, 110, 1)",
+      pointBorderColor: "rgb(255, 110, 110, 1)",
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: "rgba(78, 115, 22)",
+      pointHitRadius: 10,
+      pointBorderWidth: 2,
+      data: [22, 33, 85, 55, 66, 33, 88, 200, null, null, null, null],
     }],
   },
   options: {
@@ -78,7 +91,7 @@ var myLineChart = new Chart(ctx, {
           padding: 10,
           // Include a dollar sign in the ticks
           callback: function(value, index, values) {
-            return number_format(value) + 'x';
+            return number_format(value);
           }
         },
         gridLines: {
@@ -110,7 +123,7 @@ var myLineChart = new Chart(ctx, {
       callbacks: {
         label: function(tooltipItem, chart) {
           var datasetLabel = chart.datasets[tooltipItem.datasetIndex].label || '';
-          return datasetLabel + ' : ' + number_format(tooltipItem.yLabel) + 'x';
+          return datasetLabel + ' : ' + number_format(tooltipItem.yLabel);
         }
       }
     }

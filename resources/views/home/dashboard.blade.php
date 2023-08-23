@@ -389,7 +389,7 @@
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary py-0 mt-2">Fluktuasi Proses Testing <label style="color: rgb(255, 255, 255); background-color:rgb(0, 76, 255); padding:2px; border-radius: 3px; font-size:11px; font-weight:bold; height:18px; width:40px; text-align:center">2023</label>
+                                    <h6 class="m-0 font-weight-bold text-primary py-0 mt-2">Fluktuasi Proses Testing <label style="color: rgb(255, 255, 255); background-color:rgb(0, 76, 255); padding:2px; border-radius: 3px; font-size:11px; font-weight:bold; height:18px; width:40px; text-align:center; padding-top:2.9px">2023</label>
                                     </h6>
                                     <div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">

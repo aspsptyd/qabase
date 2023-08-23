@@ -298,8 +298,15 @@
                                             <div class="text-xl font-weight-bold text-danger" style="margin-bottom: 12px">
                                                 Report Bug & Issue</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">175 <i class="fas fa-fw fa-bug" title="Bug yang di koleksi dari report para tester"></i> - 158 <i class="fas fa-fw fa-fire" title="Issue yang ditemukan dan di report oleh para tester"></i></div>
-                                            <div style="font-size: 10px; margin-top: 13px; color:darkred; font-weight:bold">
-                                                <label style="color: rgb(255, 255, 255); background-color:rgb(255, 0, 0); padding-top:5px; padding-bottom:6px; padding-left: 8px; padding-right: 8px; border-radius: 3px; font-size:11px; font-weight:bold; text-align:left">Terdapat bug dan issue yang harus segera diperbaiki dan disesuaikan</label></div>
+                                            <div style="font-size: 10px; margin-top: 13px; color:darkred; font-weight:bold;">
+                                                <label style="color: rgb(255, 255, 255); background-color:rgb(255, 0, 0); padding-top:5px; padding-bottom:6px; padding-left: 8px; padding-right: 8px; border-radius: 3px; font-size:11px; font-weight:bold; text-align:left; width:auto">
+                                                    
+                                                    <div style="display:flex; align-items: center;">
+                                                        <div style="width: 20px;  margin-right: 5px"><i class="fas fa-fw fa-quote-left"></i></div>
+                                                        <div style="flex-grow: 1;">Masih terdapat bug dan issue</div>
+                                                    </div>
+                                                </label>
+                                            </div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-fw fa-bug fa-2x text-gray-300"></i>

@@ -276,13 +276,13 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h1 class="h3 mb-0 text-gray-800">Hi, Welcome in Homepage of QA</h1>
+                        {{-- <h1 class="h3 mb-0 text-gray-800">Hi, Welcome in Homepage of QA</h1> --}}
                         {{-- <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-inbox fa-fw"></i>&nbsp;&nbsp;Export Homepage QA</a> --}}
                         <a href="#" class="btn btn-primary btn-icon-split">
                             <span class="icon">
                                 <i class="fas fa-download"></i>
                             </span>
-                            <span class="text">Export Homepage QA</span>
+                            <span class="text">Export Homepage</span>
                         </a>
                     </div>
 
@@ -299,8 +299,7 @@
                                                 Report Bug & Issue</div>
                                             <div class="h5 mb-0 font-weight-bold text-gray-800">175 <i class="fas fa-fw fa-bug" title="Bug yang di koleksi dari report para tester"></i> - 158 <i class="fas fa-fw fa-fire" title="Issue yang ditemukan dan di report oleh para tester"></i></div>
                                             <div style="font-size: 10px; margin-top: 13px; color:darkred; font-weight:bold">
-                                                <label style="color: rgb(255, 255, 255); background-color:rgb(255, 0, 0); padding:2px; border-radius: 3px; font-size:10px; font-weight:bold; text-align:left">Terdapat
-                                                    bug & issue yang harus segera di selesaikan</label></div>
+                                                <label style="color: rgb(255, 255, 255); background-color:rgb(255, 0, 0); padding-top:5px; padding-bottom:6px; padding-left: 8px; padding-right: 8px; border-radius: 3px; font-size:11px; font-weight:bold; text-align:left">Terdapat bug dan issue yang harus segera diperbaiki dan disesuaikan</label></div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-fw fa-bug fa-2x text-gray-300"></i>

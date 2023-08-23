@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>QABASE v1.1 - Dashboard</title>
+    <title>QAB-SE.CAN LAB v1.1 - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('sb-admin-2') }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -31,7 +31,7 @@
 
             <!-- Sidebar - Brand -->
             <a class="sidebar-brand d-flex align-items-center" href="index.html">
-                <div class="sidebar-brand-text">QABASE PANEL</div>
+                <div class="sidebar-brand-text">QAB-SE.CAN LAB</div>
             </a>
 
             <!-- Divider -->
@@ -68,7 +68,7 @@
             <li class="nav-item mb-2">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-vial"></i>
-                    <span>Data Testing</span></a>
+                    <span>Lab Testing</span></a>
             </li>
 
             <!-- Divider -->
@@ -389,7 +389,7 @@
                             <div class="card shadow mb-4">
                                 <!-- Card Header - Dropdown -->
                                 <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary py-0 mt-2">Fluktuasi Proses Testing <label style="color: rgb(255, 255, 255); background-color:rgb(0, 76, 255); padding:2px; border-radius: 3px; font-size:13px; font-weight:bold; height:18px; width:45px; text-align:center">2023</label>
+                                    <h6 class="m-0 font-weight-bold text-primary py-0 mt-2">Fluktuasi Proses Testing <label style="color: rgb(255, 255, 255); background-color:rgb(0, 76, 255); padding:2px; border-radius: 3px; font-size:11px; font-weight:bold; height:18px; width:40px; text-align:center">2023</label>
                                     </h6>
                                     <div class="dropdown no-arrow">
                                         <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -471,7 +471,7 @@
             <footer class="sticky-footer bg-white">
                 <div class="container my-auto">
                     <div class="copyright text-center my-auto">
-                        <span>Copyright &copy; 2023 Quality Assurance Base Panel. All right reserved. Develop with </span>
+                        <span>Copyright &copy; 2023 Teknovasi Suryatama. All right reserved. Develop with 💘</span>
                     </div>
                 </div>
             </footer>

@@ -299,16 +299,17 @@
 
                         <!-- Earnings (Monthly) Card Example -->
                         <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-primary shadow h-100 py-2">
+                            <div class="card border-left-danger shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
-                                                Earnings (Monthly)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$40,000</div>
+                                            <div class="text-xl font-weight-bold text-danger" style="margin-bottom: 12px">
+                                                Report Bug & Issue</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">175 <i class="fas fa-fw fa-bug" title="Bug yang di koleksi dari report para tester"></i> - 158 <i class="fas fa-fw fa-virus" title="Issue yang ditemukan oleh para tester"></i></div>
+                                            <div style="font-size: 10px; margin-top: 10px; color:darkred; font-weight:bold"><label style="color: rgb(255, 255, 255); background-color:rgb(255, 0, 0); padding:2px; border-radius: 3px; font-size:10px; font-weight:bold; text-align:left">Terdapat bug & issue yang harus segera di selesaikan</label></div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-calendar fa-2x text-gray-300"></i>
+                                            <i class="fas fa-fw fa-bug fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>

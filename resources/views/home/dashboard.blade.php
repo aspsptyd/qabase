@@ -39,7 +39,7 @@
 
             <!-- Nav Item - Dashboard -->
             <li class="nav-item active">
-                <a class="nav-link" href="#">
+                <a class="nav-link" href="{{ route('homepage') }}">
                     <i class="fas fa-fw fa-cube"></i>
                     <span>Homepage</span></a>
             </li>

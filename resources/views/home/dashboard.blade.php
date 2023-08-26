@@ -30,7 +30,7 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center" href="index.html">
+            <a class="sidebar-brand d-flex align-items-center" href="{{ route('homepage') }}">
                 <div class="sidebar-brand-text">QAB-SE.CAN LAB</div>
             </a>
 

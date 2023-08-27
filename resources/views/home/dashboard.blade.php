@@ -30,9 +30,8 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand align-items-center" href="index.html" style="margin-top: -4px; margin-bottom: 6px">
-                <div class="sidebar-brand-text">QAB-SE.CAN V1.1</div>
-                <div style="font-size: 10px">Build 2023.0825.2</div>
+            <a class="sidebar-brand d-flex align-items-center" href="{{ route('homepage') }}">
+                <div class="sidebar-brand-text">QAB-SE.CAN LAB</div>
             </a>
 
             <!-- Divider -->

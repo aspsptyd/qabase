@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>QAB-SE.CAN LAB v1.1 - Dashboard</title>
+    <title>QAB-SE.CAN v1.1 - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('sb-admin-2') }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -30,8 +30,9 @@
         <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
 
             <!-- Sidebar - Brand -->
-            <a class="sidebar-brand d-flex align-items-center" href="index.html">
-                <div class="sidebar-brand-text">QAB-SE.CAN LAB</div>
+            <a class="sidebar-brand align-items-center" href="index.html" style="margin-top: -4px; margin-bottom: 6px">
+                <div class="sidebar-brand-text">QAB-SE.CAN V1.1</div>
+                <div style="font-size: 10px">Build 2023.0825.2</div>
             </a>
 
             <!-- Divider -->
@@ -99,6 +100,11 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
+
+                    <!-- Topbar Search -->
+                    <div>
+                        <h6 style="margin-top: 10px; margin-left: 5px">What's New!</h6>
+                    </div>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">

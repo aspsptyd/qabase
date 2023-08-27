@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>QAB-SE.CAN v1.1 - Dashboard</title>
+    <title>QAB-SE.CAN LAB v1.1 - Dashboard</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('sb-admin-2') }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -53,11 +53,14 @@
                     <span>Master User</span></a>
             </li>
 
-            <li class="nav-item mt-1">
+            <li class="nav-item mt-1 mb-2">
                 <a class="nav-link" href="tables.html">
                     <i class="fas fa-fw fa-flask"></i>
                     <span>Master Project</span></a>
             </li>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
 
             <li class="nav-item mt-1">
                 <a class="nav-link" href="tables.html">
@@ -77,7 +80,7 @@
             <!-- Nav Item - Charts -->
             <li class="nav-item">
                 <a class="nav-link" href="charts.html">
-                    <i class="fas fa-fw fa-rocket"></i>
+                    <i class="fas fa-fw fa-wrench"></i>
                     <span>Settings</span></a>
             </li>
 
@@ -99,11 +102,6 @@
                     <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
                         <i class="fa fa-bars"></i>
                     </button>
-
-                    <!-- Topbar Search -->
-                    <div>
-                        <h6 style="margin-top: 10px; margin-left: 5px">What's New!</h6>
-                    </div>
 
                     <!-- Topbar Navbar -->
                     <ul class="navbar-nav ml-auto">
@@ -313,7 +311,7 @@
                                                 </label>
                                             </div>
                                         </div>
-                                        <div class="col-auto">
+                                        <div class="col-auto" style="margin-top: -55px">
                                             <i class="fas fa-fw fa-bug fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
@@ -327,12 +325,12 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
-                                                Earnings (Annual)</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">$215,000</div>
+                                            <div class="text-xl font-weight-bold text-success" style="margin-bottom: 12px">
+                                                Project on Testing</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">25 / 58 Product</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-dollar-sign fa-2x text-gray-300"></i>
+                                            <i class="fas fa-flask fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -345,21 +343,16 @@
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Tasks
-                                            </div>
+                                            <div class="text-xl font-weight-bold text-primary" style="margin-bottom: 12px">
+                                                Request Testing</div>
                                             <div class="row no-gutters align-items-center">
                                                 <div class="col-auto">
-                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">50%</div>
-                                                </div>
-                                                <div class="col">
-                                                    <div class="progress progress-sm mr-2">
-                                                        <div class="progress-bar bg-info" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-                                                    </div>
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">12 Request</div>
                                                 </div>
                                             </div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-clipboard-list fa-2x text-gray-300"></i>
+                                            <i class="fas fa-envelope-open fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>

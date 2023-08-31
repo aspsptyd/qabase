@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>1STEPAHEAD - Homepage</title>
+    <title>1STEPAHEAD - Master User</title>
 
     <!-- Custom fonts for this template-->
     <link href="{{ asset('sb-admin-2') }}/vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
@@ -40,7 +40,7 @@
             <hr class="sidebar-divider my-0 mt-2">
 
             <!-- Nav Item - Dashboard -->
-            <li class="nav-item active">
+            <li class="nav-item">
                 <a class="nav-link" href="{{ route('homepage') }}">
                     <i class="fas fa-fw fa-cube"></i>
                     <span>Homepage</span></a>
@@ -64,7 +64,7 @@
             <!-- Divider -->
             <hr class="sidebar-divider my-0">
 
-            <li class="nav-item mt-1">
+            <li class="nav-item mt-1 active">
                 <a class="nav-link" href="{{ route('bugtracer') }}">
                     <i class="fas fa-fw fa-bug"></i>
                     <span>Bug & Issue <span class="badge badge-danger">250+</span></span></a>
@@ -93,6 +93,7 @@
                     Version 1.2.2023
                 </div>
             </div>
+
         </ul>
         <!-- End of Sidebar -->
 
@@ -138,49 +139,37 @@
                             <a class="nav-link dropdown-toggle" href="#" id="alertsDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                 <i class="fas fa-bell fa-fw"></i>
                                 <!-- Counter - Alerts -->
-                                <span class="badge badge-danger badge-counter">3+</span>
+                                <span class="badge badge-danger badge-counter">2+</span>
                             </a>
                             <!-- Dropdown - Alerts -->
                             <div class="dropdown-list dropdown-menu dropdown-menu-right shadow animated--grow-in" aria-labelledby="alertsDropdown">
                                 <h6 class="dropdown-header">
-                                    Alerts Center
+                                    Issue & Bug Tracker
                                 </h6>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-primary">
-                                            <i class="fas fa-file-alt text-white"></i>
+                                            <i class="fas fa-bug text-white"></i>
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 12, 2019</div>
-                                        <span class="font-weight-bold">A new monthly report is ready to
-                                            download!</span>
-                                    </div>
-                                </a>
-                                <a class="dropdown-item d-flex align-items-center" href="#">
-                                    <div class="mr-3">
-                                        <div class="icon-circle bg-success">
-                                            <i class="fas fa-donate text-white"></i>
-                                        </div>
-                                    </div>
-                                    <div>
-                                        <div class="small text-gray-500">December 7, 2019</div>
-                                        $290.29 has been deposited into your account!
+                                        <div class="small text-gray-500">31 Ags 2023, 13:24</div>
+                                        <span class="font-weight-light">BUG-SLTR-1.15 - Untuk notifikasi edit quotation dalam mode bahasa inggris menjadi kosong</span>
                                     </div>
                                 </a>
                                 <a class="dropdown-item d-flex align-items-center" href="#">
                                     <div class="mr-3">
                                         <div class="icon-circle bg-warning">
-                                            <i class="fas fa-exclamation-triangle text-white"></i>
+                                            <i class="fas fa-fire text-white"></i>
                                         </div>
                                     </div>
                                     <div>
-                                        <div class="small text-gray-500">December 2, 2019</div>
-                                        Spending Alert: We've noticed unusually high spending for your account.
+                                        <div class="small text-gray-500">29 Ags 2023, 10:35</div>
+                                        ISSUE-SLTR-1.19 - Untuk kondisi mengedit data SO hasil dari convert SO, bisa mengedit namun tidak muncul pop up konfirmasi berhasil edit
                                     </div>
                                 </a>
                                 <a class="dropdown-item text-center small text-gray-500" href="#">Show All
-                                    Alerts</a>
+                                    Issue or Bug</a>
                             </div>
                         </li>
 
@@ -293,42 +282,30 @@
 
                     <!-- Page Heading -->
                     <div class="d-sm-flex align-items-center justify-content-between mb-4">
-                        <h5 class="h5 mb-0 text-gray-800 text-uppercase" style="font-weight: bold">
-                            Homepage of Quality Assurance
-                        </h5>
+                        <h5 class="h5 mb-0 text-gray-800 text-uppercase" style="font-weight: bold">Master Data User</h5>
                     </div>
 
-                    <div class="alert alert-success alert-dismissible fade show" role="alert" style="height: 50px; padding-top: 15px; margin-bottom: 30px">
-                        👋 Halo! Selamat datang di 1 Step A Head.
+                      <div class="alert alert-success alert-dismissible fade show" role="alert" style="height: 50px; padding-top: 15px; margin-bottom: 30px">
+                        👋 Halo! Ayo selesaikan fitur yang masih bermasalah pada proyek aplikasi kita
                         <button type="button" class="close" data-dismiss="alert" aria-label="Close">
                           <span aria-hidden="false">&times;</span>
                         </button>
                       </div>
 
-                    <!-- Content Row -->
-                    <div class="row" style="margin-bottom: 20px">
+                    <div class="row">
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-danger shadow h-100 py-2">
+                        <div class="col-xl-2 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xl font-weight-bold text-danger" style="margin-bottom: 12px">
-                                                Report Bug & Issue</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">175 <i class="fas fa-fw fa-bug"></i> - 158 <i class="fas fa-fw fa-fire" title="Issue yang ditemukan dan di report oleh para tester"></i></div>
-                                            <div style="font-size: 10px; margin-top: 13px; color:darkred; font-weight:bold;">
-                                                <label style="color: rgb(255, 255, 255); background-color:rgb(255, 0, 0); padding-top:5px; padding-bottom:6px; padding-left: 8px; padding-right: 8px; border-radius: 3px; font-size:11px; font-weight:bold; text-align:left; width:auto">
-                                                    
-                                                    <div style="display:flex; align-items: center;">
-                                                        <div style="width: 20px;  margin-right: 2px"><i class="fas fa-fw fa-quote-left"></i></div>
-                                                        <div style="flex-grow: 1;">Masih terdapat bug dan issue</div>
-                                                    </div>
-                                                </label>
-                                            </div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                New User This Month</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">15</div>
                                         </div>
-                                        <div class="col-auto" style="margin-top: -55px">
-                                            <i class="fas fa-fw fa-bug fa-2x text-gray-300"></i>
+                                        <div class="col-auto">
+                                            <i class="fas fa-universal-access fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -336,14 +313,36 @@
                         </div>
 
                         <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
+                        <div class="col-xl-2 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                New User This Year</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">10</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-universal-access fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Earnings (Monthly) Card Example -->
+                        <div class="col-xl-2 col-md-6 mb-4">
                             <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xl font-weight-bold text-success" style="margin-bottom: 12px">
-                                                Project on Testing</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">25 / 58 Product</div>
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">QA Tester
+                                            </div>
+                                            <div class="row no-gutters align-items-center">
+                                                <div class="col-auto">
+                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">5</div>
+                                                </div>
+                                            </div>
                                         </div>
                                         <div class="col-auto">
                                             <i class="fas fa-flask fa-2x text-gray-300"></i>
@@ -353,22 +352,18 @@
                             </div>
                         </div>
 
-                        <!-- Earnings (Monthly) Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-info shadow h-100 py-2">
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-2 col-md-6 mb-4">
+                            <div class="card border-left-success shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xl font-weight-bold text-primary" style="margin-bottom: 12px">
-                                                Request Testing</div>
-                                            <div class="row no-gutters align-items-center">
-                                                <div class="col-auto">
-                                                    <div class="h5 mb-0 mr-3 font-weight-bold text-gray-800">12 Request</div>
-                                                </div>
-                                            </div>
+                                            <div class="text-xs font-weight-bold text-success text-uppercase mb-1">
+                                                User Administrator</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">3</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-envelope-open fa-2x text-gray-300"></i>
+                                            <i class="fas fa-users fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -376,17 +371,35 @@
                         </div>
 
                         <!-- Pending Requests Card Example -->
-                        <div class="col-xl-3 col-md-6 mb-4">
-                            <div class="card border-left-warning shadow h-100 py-2">
+                        <div class="col-xl-2 col-md-6 mb-4">
+                            <div class="card border-left-primary shadow h-100 py-2">
                                 <div class="card-body">
                                     <div class="row no-gutters align-items-center">
                                         <div class="col mr-2">
-                                            <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">
-                                                Pending Requests</div>
-                                            <div class="h5 mb-0 font-weight-bold text-gray-800">18</div>
+                                            <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">
+                                                User Aktif / Non-Aktif</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">10/35</div>
                                         </div>
                                         <div class="col-auto">
-                                            <i class="fas fa-comments fa-2x text-gray-300"></i>
+                                            <i class="fas fa-users fa-2x text-gray-300"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Pending Requests Card Example -->
+                        <div class="col-xl-2 col-md-6 mb-4">
+                            <div class="card border-left-secondary shadow h-100 py-2">
+                                <div class="card-body">
+                                    <div class="row no-gutters align-items-center">
+                                        <div class="col mr-2">
+                                            <div class="text-xs font-weight-bold text-secondary text-uppercase mb-1">
+                                                Hold</div>
+                                            <div class="h5 mb-0 font-weight-bold text-gray-800">5</div>
+                                        </div>
+                                        <div class="col-auto">
+                                            <i class="fas fa-tags fa-2x text-gray-300"></i>
                                         </div>
                                     </div>
                                 </div>
@@ -394,86 +407,141 @@
                         </div>
                     </div>
 
-                    <!-- Content Row -->
-
-                    <div class="row">
+                    <div class="row" style="margin-top: 10px">
 
                         <!-- Area Chart -->
-                        <div class="col-xl-8 col-lg-7">
-                            <div class="card shadow mb-4">
-                                <!-- Card Header - Dropdown -->
-                                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                                    <h6 class="m-0 font-weight-bold text-primary py-0">Fluktuasi Proses Testing <span class="badge badge-primary">Agustus 2023</span>
-                                    </h6>
-                                    <div class="dropdown no-arrow">
-                                        <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                            <i class="fas fa-ellipsis-v fa-sm fa-fw text-gray-400"></i>
-                                        </a>
-                                        <div class="dropdown-menu dropdown-menu-right shadow animated--fade-in" aria-labelledby="dropdownMenuLink">
-                                            <div class="dropdown-header">Dropdown Header:</div>
-                                            <a class="dropdown-item" href="#">Action</a>
-                                            <a class="dropdown-item" href="#">Another action</a>
-                                            <div class="dropdown-divider"></div>
-                                            <a class="dropdown-item" href="#">Something else here</a>
-                                        </div>
-                                    </div>
-                                </div>
-                                <!-- Card Body -->
-                                <div class="card-body">
-                                    <div class="chart-area">
-                                        <canvas id="myAreaChart"></canvas>
+                        <div class="col-xl-12 col-lg-7">
+                            
+                            <div class="card shadow">
+                                <div style="padding: 0px">
+                                    <table class="table table-bordered table-hover">
+                                        <thead class="thead-dark">
+                                          <tr>
+                                            <th scope="col" style="text-align: center;">No.</th>
+                                            <th scope="col" style="width: 11%; text-align: center;">Kode Bug / Issue</th>
+                                            <th scope="col" style="text-align: center; width: 8%">Klasifikasi</th>
+                                            <th scope="col" style="width: 40%">Deskirpsi Bug / Issue</th>
+                                            <th scope="col" style="width: 10%">Reported by</th>
+                                            <th scope="col" style="width: 20%">Reported at</th>
+                                            <th scope="col" style="width: 9%; text-align: center">Status</th>
+                                          </tr>
+                                        </thead>
+                                        <tbody>
+                                          <tr class="table-row" data-id="{{ 1 }}" style="cursor: pointer;">
+                                            <th scope="row" style="text-align: center; vertical-align: middle;">1</th>
+                                            <td style="vertical-align: middle; font-weight: bold; text-align: center;"><a href="#" style="background-color: #ffffff00; padding: 10px; border-radius: 5px; color: #000000; text-decoration: none;">ISSUE-OMS-1.12</a></td>
+                                            <td style="vertical-align: middle; text-align: center">
+                                                <a class="btn btn-info position-relative btn-sm" style="margin-left: -15px">
+                                                    Minor
+                                                    <span class="position-absolute top-0 start-100 translate-middle badge bg-warning btn-sm" style="margin-top: -10px; padding: 5px; color: #000000">
+                                                      Issue
+                                                    </span>
+                                                </a>
+                                            </td>
+                                            <td style="color: #000000">Terdapat kondisi ketika proses convert so menjadi invoice, tidak muncul konfirmasi tersimpan data convert namun ketika di refresh data convert muncul, Terdapat kondisi ketika proses convert so menjadi invoice, tidak muncul konfirmasi tersimpan data convert namun ketika di refresh data convert muncul</td>
+                                            <td style="vertical-align: middle;"><label style="background-color: #ececec; padding: 5px; border-radius: 5px"><a style="color: #000000">Muhammad Rivaldi</a></label></td>
+                                            <td style="vertical-align: middle; color: #000000;">Selasa, 29 Agustus 2023 @ 15:30</td>
+                                            <td style="vertical-align: middle; text-align: center; background-color: #ffff0073;"><label style="border-radius: 5px"><a style="color: #000000; font-weight: bold;">OPEN</a></label></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row" style="text-align: center; vertical-align: middle;">2</th>
+                                            <td style="vertical-align: middle; font-weight: bold; text-align: center;"><a href="#" style="background-color: #ffffff00; padding: 10px; color: #000000; border-radius: 5px; text-decoration: none;">BUG-SLTR-1.15</a></td>
+                                            <td style="vertical-align: middle; text-align: center">
+                                                <a class="btn btn-danger position-relative btn-sm" style="margin-left: -15px">
+                                                    Major
+                                                    <span class="position-absolute top-0 start-100 translate-middle badge bg-secondary btn-sm" style="margin-top: -10px; padding: 5px">
+                                                      Bug
+                                                    </span>
+                                                </a>
+                                            </td>
+                                            <td style="color: #000000">Untuk notifikasi edit quotation dalam mode bahasa inggris menjadi kosong</td>
+                                            <td style="vertical-align: middle;"><label style="background-color: #ffe0e0; padding: 6px; border-radius: 5px"><a style="color: #090909">Fadhilah Eka</a></label></td>
+                                            <td style="vertical-align: middle; color: #000000">Rabu, 30 Agustus 2023 @ 12:40</td>
+                                            <td style="vertical-align: middle; text-align: center; background-color: #49454368;"><label style="border-radius: 5px"><a style="color: #ffffff; font-weight: bold;">WAITING CHECK</a></label></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row" style="text-align: center; vertical-align: middle;">3</th>
+                                            <td style="vertical-align: middle; font-weight: bold; text-align: center;"><a href="#" style="background-color: #ffffff00; padding: 10px; border-radius: 5px; color: #000000; text-decoration: none;">ISSUE-SLTR-1.19</a></td>
+                                            <td style="vertical-align: middle; text-align: center">
+                                                <a class="btn btn-danger position-relative btn-sm" style="margin-left: -15px">
+                                                    Major
+                                                    <span class="position-absolute top-0 start-100 translate-middle badge bg-warning btn-sm" style="margin-top: -10px; padding: 5px; color: #000000">
+                                                        Issue
+                                                    </span>
+                                                </a>
+                                            </td>
+                                            <td style="color: #000000">Untuk kondisi mengedit data SO hasil dari convert SO, bisa mengedit namun tidak muncul pop up konfirmasi berhasil edit</td>
+                                            <td style="vertical-align: middle;"><label style="background-color: #c8f7ec; padding: 6px; border-radius: 5px"><a style="color: #090909">Henny</a></label></td>
+                                            <td style="vertical-align: middle; color: #000000">Rabu, 30 Agustus 2023 @ 12:40</td>
+                                            <td style="vertical-align: middle; text-align: center; background-color: #00ff5946;"><label style="border-radius: 5px"><a style="color: #000000; font-weight: bold;">CLOSED</a></label></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row" style="text-align: center; vertical-align: middle;">4</th>
+                                            <td style="vertical-align: middle; font-weight: bold; text-align: center;"><a href="#" style="background-color: #ffffff00; padding: 10px; color: #000000; border-radius: 5px; text-decoration: none;">BUG-SLTR-1.23</a></td>
+                                            <td style="vertical-align: middle; text-align: center">
+                                                <a class="btn btn-info position-relative btn-sm" style="margin-left: -15px">
+                                                    Minor
+                                                    <span class="position-absolute top-0 start-100 translate-middle badge bg-secondary btn-sm" style="margin-top: -10px; padding: 5px;">
+                                                      Bug
+                                                    </span>
+                                                </a>
+                                            </td>
+                                            <td style="color: #000000">Untuk akun baru hasil dari login by google di dashboard, ketika login di apps terbaca sebagai akun lite</td>
+                                            <td style="vertical-align: middle;"><label style="background-color: #e8c8f7; padding: 6px; border-radius: 5px"><a style="color: #090909">Fahmi</a></label></td>
+                                            <td style="vertical-align: middle; color: #000000">Rabu, 30 Agustus 2023 @ 12:40</td>
+                                            <td style="vertical-align: middle; text-align: center; background-color: #ff000097;"><label style="border-radius: 5px"><a style="color: #ffffff; font-weight: bold;">REOPEN</a></label></td>
+                                          </tr>
+                                          <tr class="table-row" data-id="{{ 1 }}" style="cursor: pointer;">
+                                            <th scope="row" style="text-align: center; vertical-align: middle;">5</th>
+                                            <td style="vertical-align: middle; font-weight: bold; text-align: center;"><a href="#" style="background-color: #ffffff00; padding: 10px; border-radius: 5px; color: #000000; text-decoration: none;">ISSUE-OMS-1.12</a></td>
+                                            <td style="vertical-align: middle; text-align: center">
+                                                <a class="btn btn-info position-relative btn-sm" style="margin-left: -15px">
+                                                    Minor
+                                                    <span class="position-absolute top-0 start-100 translate-middle badge bg-warning btn-sm" style="margin-top: -10px; padding: 5px; color: #000000">
+                                                      Issue
+                                                    </span>
+                                                </a>
+                                            </td>
+                                            <td style="color: #000000">Terdapat kondisi ketika proses convert so menjadi invoice, tidak muncul konfirmasi tersimpan data convert namun ketika di refresh data convert muncul, Terdapat kondisi ketika proses convert so menjadi invoice, tidak muncul konfirmasi tersimpan data convert namun ketika di refresh data convert muncul</td>
+                                            <td style="vertical-align: middle;"><label style="background-color: #ececec; padding: 5px; border-radius: 5px"><a style="color: #000000">Muhammad Rivaldi</a></label></td>
+                                            <td style="vertical-align: middle; color: #000000;">Selasa, 29 Agustus 2023 @ 15:30</td>
+                                            <td style="vertical-align: middle; text-align: center; background-color: #00ff33;"><label style="border-radius: 5px"><a style="color: #000000; font-weight: bold;">ON PROCESS</a></label></td>
+                                          </tr>
+                                          <tr>
+                                            <th scope="row" style="text-align: center; vertical-align: middle;">6</th>
+                                            <td style="vertical-align: middle; font-weight: bold; text-align: center;"><a href="#" style="background-color: #ffffff00; padding: 10px; color: #000000; border-radius: 5px; text-decoration: none;">BUG-SLTR-1.15</a></td>
+                                            <td style="vertical-align: middle; text-align: center">
+                                                <a class="btn btn-danger position-relative btn-sm" style="margin-left: -15px">
+                                                    Major
+                                                    <span class="position-absolute top-0 start-100 translate-middle badge bg-secondary btn-sm" style="margin-top: -10px; padding: 5px">
+                                                      Bug
+                                                    </span>
+                                                </a>
+                                            </td>
+                                            <td style="color: #000000">Untuk notifikasi edit quotation dalam mode bahasa inggris menjadi kosong</td>
+                                            <td style="vertical-align: middle;"><label style="background-color: #ffe0e0; padding: 6px; border-radius: 5px"><a style="color: #090909">Fadhilah Eka</a></label></td>
+                                            <td style="vertical-align: middle; color: #000000">Rabu, 30 Agustus 2023 @ 12:40</td>
+                                            <td style="vertical-align: middle; text-align: center; background-color: #ff550068;"><label style="border-radius: 5px"><a style="color: #ffffff; font-weight: bold;">HOLD</a></label></td>
+                                          </tr>
+                                        </tbody>
+                                    </table>
+    
+                                    <div style="display: flex; justify-content: right; margin-right: 20px">
+                                    <nav aria-label="Page navigation example">
+                                        <ul class="pagination">
+                                            <li class="page-item"><a class="page-link" href="#">Previous</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">1</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">2</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">3</a></li>
+                                            <li class="page-item"><a class="page-link" href="#">Next</a></li>
+                                        </ul>
+                                        </nav>
                                     </div>
                                 </div>
                             </div>
                         </div>
-
-                        <!-- Content Column -->
-                        <div class="col-lg-4 mb-5">
-
-                            <!-- Project Card Example -->
-                            <div class="card shadow mb-4">
-                                <div class="card-header py-3">
-                                    <h6 class="m-0 font-weight-bold text-primary py-0">Progress Testing by Project <span class="badge badge-primary">5+</span></h6>
-                                </div>
-                                <div class="card-body mt-2">
-                                    <h4 class="small font-weight-bold">Aplikasi Mobile (Android & iOS) Omsetku Personal
-                                        v1.42<span class="float-right">58%</span></h4>
-                                    <div class="progress mb-3">
-                                        <div class="progress-bar bg-danger" role="progressbar" style="width: 58%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <h4 class="small font-weight-bold">Aplikasi Sales Trace v1.42<span class="float-right">78%</span></h4>
-                                    <div class="progress mb-3">
-                                        <div class="progress-bar bg-warning" role="progressbar" style="width: 78%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <h4 class="small font-weight-bold">Aplikasi Sales Trace v1.42 - Feature Sign with Apple<span class="float-right">28%</span></h4>
-                                    <div class="progress mb-3">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 28%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <h4 class="small font-weight-bold">Aplikasi Sales Trace v1.42 - In app purchase<span class="float-right">10%</span></h4>
-                                    <div class="progress mb-3">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 10%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <h4 class="small font-weight-bold">Aplikasi Sales Trace v1.42 - Permission trace user data<span class="float-right">35%</span></h4>
-                                    <div class="progress mb-3">
-                                        <div class="progress-bar bg-success" role="progressbar" style="width: 35%" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100"></div>
-                                    </div>
-
-                                    <h4 class="small font-weight-bold" style="margin-top: 35px; margin-bottom:-1px; font-size:15px; text-decoration: underline;"><a href="#">Lihat lebih banyak project, Klik disini</a></h4>
-                                </div>
-                            </div>
-
-                        </div>
                     </div>
 
-                    <!-- Content Row -->
-                    <div class="row">
-
-
-                    </div>
 
                 </div>
                 <!-- /.container-fluid -->
@@ -488,10 +556,10 @@
                         Copyright &copy; 2023 Teknovasi Suryatama. All right reserved.
                     </div>
                     <div class="text-center copyright">
-                        Historical of Develop  
+                        Historical of Develop 
                     </div>
                     <div class="text-right copyright" style="margin-right: 25px">
-                        Build 2023.0825.02
+                        BUILD 2023.0825.02
                     </div>
                 </span>
             </footer>
@@ -543,6 +611,16 @@
     <!-- Page level custom scripts -->
     <script src="{{ asset('sb-admin-2') }}/js/demo/chart-area-demo.js"></script>
     <script src="{{ asset('sb-admin-2') }}/js/demo/chart-pie-demo.js"></script>
+
+    <script>
+        const rows = document.querySelectorAll('.table-row');
+        rows.forEach(row => {
+            row.addEventListener('click', () => {
+                const id = row.getAttribute('data-id');
+                window.location.href = "{{ route('homepage', ['id' => '__id__']) }}".replace('__id__', id);
+            });
+        });
+    </script>
 
 </body>
 

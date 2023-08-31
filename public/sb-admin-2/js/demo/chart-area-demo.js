@@ -32,7 +32,7 @@ var ctx = document.getElementById("myAreaChart");
 var myLineChart = new Chart(ctx, {
   type: 'line',
   data: {
-    labels: ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"],
+    labels: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31],
     datasets: [{
       label: "Aksi Testing",
       lineTension: 0.1,
@@ -41,12 +41,12 @@ var myLineChart = new Chart(ctx, {
       pointRadius: 3,
       pointBackgroundColor: "rgba(78, 115, 223, 1)",
       pointBorderColor: "rgba(78, 115, 223, 1)",
-      pointHoverRadius: 5,
+      pointHoverRadius: 7,
       pointHoverBackgroundColor: "rgba(78, 115, 223, 1)",
       pointHoverBorderColor: "rgba(78, 115, 223, 1)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [18, 35, 12, 8, 26, 21, 45, 30, null, null, null, null],
+      data: [10, 30, 12, 15, 25, 20, 22, 23, 24, 51, 4, 2, 5, 2, 30, 13, 25, 20, 20, 15, 31, 25, 22, 10, 7, 3, 10, 5, 30, 12, 5],
     },
     {
       label: "Bug + Issue",
@@ -56,19 +56,19 @@ var myLineChart = new Chart(ctx, {
       backgroundColor: "rgb(255, 66, 66, 0.08)",
       pointBackgroundColor: "rgb(255, 110, 110, 1)",
       pointBorderColor: "rgb(255, 110, 110, 1)",
-      pointHoverRadius: 5,
+      pointHoverRadius: 7,
       pointHoverBackgroundColor: "rgba(78, 115, 22)",
       pointHitRadius: 10,
       pointBorderWidth: 2,
-      data: [4, 28, 18, 22, 71, 33, 38, 12, null, null, null, null],
+      data: [0, 5, 5, 0, 0, 0, 0, 10, 5, 7, 19, 5, 10, 2, 11, 2, 5, 5, 4, 7, 9, 12, 10, 5, 7, 3, 5, 5, 15, 10, 5],
     }],
   },
   options: {
     maintainAspectRatio: false,
     layout: {
       padding: {
-        left: 10,
-        right: 10,
+        left: 20,
+        right: 20,
         top: 25,
         bottom: 0
       }
@@ -83,7 +83,7 @@ var myLineChart = new Chart(ctx, {
           drawBorder: false
         },
         ticks: {
-          maxTicksLimit: 12
+          maxTicksLimit: 31
         }
       }],
       yAxes: [{

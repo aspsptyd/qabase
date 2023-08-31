@@ -1,6 +1,8 @@
 <?php
 
+use App\Http\Controllers\BugTracerController;
 use App\Http\Controllers\HomepageController;
+use App\Http\Controllers\UsersController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -15,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomepageController::class, 'index'])->name('homepage');
+Route::get('/users', [UsersController::class, 'index'])->name('users');
+Route::get('/bugtracer', [BugTracerController::class, 'index'])->name('bugtracer');
